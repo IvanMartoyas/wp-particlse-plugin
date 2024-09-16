@@ -10,10 +10,7 @@
  * Network:     true
  */
 
-// $debug = true;
-
-
-// подлкючаю стили и скрипты
+// подключаю стили и скрипты
 function wp_kama_head_action(){
     ?>
         <link rel="stylesheet" href="<? echo plugins_url(  '/particls-style.css',__FILE__); ?>">
@@ -23,9 +20,6 @@ function wp_kama_head_action(){
 add_action( 'wp_head', 'wp_kama_head_action' );
 
 
-
-
-// добавляю возможность использовать шорткоды
 add_shortcode( 'particlse', 'particlse_func' ); 
 
 function particlse_func( $atts ){ 
@@ -170,6 +164,4 @@ particlesJS('<? echo $id; ?>',
 
     return ob_get_clean();
 } 
-// шорткод будет выглядеть [particlse id="particlse1"]
-
 ?>
