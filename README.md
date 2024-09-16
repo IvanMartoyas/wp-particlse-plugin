@@ -5,6 +5,8 @@
     Делаю zip архив из папки particlse-plugin и устанавливаю как обычный плагин в Word Press
 
     Вставлять шорткодом 
-    <p> [particlse id="particlse1"]</p>
+<p> 
+    [particlse id="particlse1"]
+</p>
 
     Дальше я создаю блок в теме и ему в якорь вписываю id который прописал в шорткоде 
