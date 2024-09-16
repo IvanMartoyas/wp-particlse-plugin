@@ -6,9 +6,8 @@
     //add particlse header</br>
     require get_template_directory() . '/particlse/index.php'; </br>
 
-    </br>
-    </br>
+
     // шорткод будет выглядеть [particlse id="particlse1"]
-    </br>
+
     // дальше я создаю блок в теме и ему в якорь вписываю id который прописал в шорткоде 
 </p>
