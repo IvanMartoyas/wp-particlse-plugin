@@ -7,7 +7,7 @@
     require get_template_directory() . '/particlse/index.php'; </br>
 
 
-    // шорткод будет выглядеть [particlse id="particlse1"]
+    // вставлять шорткодом  [particlse id="particlse1"]
 
     // дальше я создаю блок в теме и ему в якорь вписываю id который прописал в шорткоде 
 </p>
